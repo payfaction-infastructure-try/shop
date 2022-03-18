@@ -10,7 +10,7 @@ const TEXT = process.env.TEXT || "Hello World";
 
 // App
 const app = express();
-app.get("/", (req, res) => {
+app.get("/shop", (req, res) => {
   res.send(TEXT);
 });
 
